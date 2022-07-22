@@ -73,13 +73,13 @@
   .cell.x::before,
   .cell.x::after,
   .cell.circle::before {
-    background-color: black;
+    background-color: rgb(4, 248, 17);
   }
   
   .board.x .cell:not(.x):not(.circle):hover::before,
   .board.x .cell:not(.x):not(.circle):hover::after,
   .board.circle .cell:not(.x):not(.circle):hover::before {
-    background-color: lightgrey;
+    background-color: rgb(248, 4, 4);
   }
   
   .cell.x::before,
@@ -121,7 +121,7 @@
   .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: white;
+    background-color: rgb(255, 0, 0);
   }
   
   .winning-message {
